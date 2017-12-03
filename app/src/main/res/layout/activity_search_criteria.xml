@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginRight="44dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="55dp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Dish Name"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="47dp" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginRight="44dp"
+        android:text="Ingredient 1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:completionHint="Ingredient"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="116dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredient 2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:completionHint="Ingredient"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="183dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredient 3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:completionHint="Ingredient"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="256dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredient 4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:completionHint="Ingredient"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="326dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredient 5"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:completionHint="Ingredient"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="391dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dish Type"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:completionHint="Ingredient"
+                tools:layout_editor_absoluteX="93dp"
+                tools:layout_editor_absoluteY="448dp" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dish Type"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="457dp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:completionHint="Ingredient"
+                    tools:layout_editor_absoluteX="93dp"
+                    tools:layout_editor_absoluteY="448dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Search" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
